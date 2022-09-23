@@ -8,4 +8,4 @@ let coche = 4;
    function incrementarPuertas (coche) {
     return  coche + 1;
    }
-   incrementarPuertas()
+   incrementarPuertas(coche)
