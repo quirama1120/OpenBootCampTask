@@ -1,4 +1,4 @@
-class Persona {
+class Person {
     constructor (edad,nombre,telefono) {
         this._edad = edad;
         this._nombre = nombre;
@@ -23,5 +23,5 @@ set telefono (phone) {
 this._telefono = phone;
 }
 }
-const quirama = new Persona(27,"Christian", 3008871403)
+const quirama = new Person(27,"Christian", 3008871403)
 console.log(quirama)
